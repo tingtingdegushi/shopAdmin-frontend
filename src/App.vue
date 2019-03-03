@@ -2,7 +2,7 @@
   <div id="app">
     Shop Admin
 
-    <el-button type="primary" circle>主要按钮</el-button>
+    <router-view></router-view>
 
   </div>
 </template>
@@ -23,5 +23,8 @@ export default {
 </script>
 
 <style>
-
+*{
+  margin:0;
+  padding:0;
+}
 </style>
